@@ -1,7 +1,8 @@
 machine:
   node:
-    5.6.0
+    version: 5.6.0
 
 dependencies:
   override:
+    - npm i
     - npm i --dev

@@ -1,0 +1,34 @@
+{
+  "name": "hello_ci",
+  "version": "1.0.0",
+  "description": "practice ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui qunit --compilers js:babel-register",
+    "start": "babel-node index.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/birdca/hello_ci.git"
+  },
+  "author": "Ca Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birdca/hello_ci/issues"
+  },
+  "homepage": "https://github.com/birdca/hello_ci#readme",
+  "dependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "babel-register": "^6.7.2",
+    "mocha": "^2.4.5"
+  }
+}

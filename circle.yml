@@ -4,5 +4,4 @@ machine:
 
 dependencies:
   override:
-    - npm i
     - npm i --dev
